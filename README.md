@@ -7,5 +7,5 @@ We came across their DB3.6 controller. RS232 and USB communication protocols are
 Elmo provide a .NET library, which is nice but not very compatible with our [Tango Controls](https://www.tango-controls.org) environment run under Linux.
 By the moment of the scrip writing I could not find any solution in Python.
 
-The attached the [example script](example/DB_communication.py) written in Python demonstrating the basic communication capability via a UDP.
+The attached the [example script](https://github.com/lorcat/Elmo-Motion-Control-UDP/blob/main/example/DB3_communication.py) written in Python demonstrating the basic communication capability via a UDP.
 It creates a UDP server which performes communications with the controller. The proof of principle script can be easily transformed into a multithreading solution.
